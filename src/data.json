@@ -1,0 +1,134 @@
+{
+    "hotelDetails": [
+        {
+            "image": "https://media.istockphoto.com/id/1331465591/photo/3d-render-of-a-luxury-hotel-swimming-pool.jpg?s=612x612&w=0&k=20&c=oK3vEzPg3mZrCXgairNgU5qM-vf0jMab9N7udzzVDk0=",
+            "hotelName": "Meenu's Hotel",
+            "roomImges": [
+                "https://media.istockphoto.com/id/1300757575/photo/side-view-of-hotel-amenities-on-the-bed.jpg?s=612x612&w=0&k=20&c=NQK76wtCnGhNcvveUfs8FE4JGl9-A1zuqCsSS8vUmgI=",
+                "https://media.istockphoto.com/id/627892060/photo/hotel-room-suite-with-view.jpg?s=612x612&w=0&k=20&c=YBwxnGH3MkOLLpBKCvWAD8F__T-ypznRUJ_N13Zb1cU="
+            ],
+            "address": "Mumbai",
+            "rooms": 4,
+            "price": "₹ 25000 per night",
+            "availability": 10,
+            "rating": 5
+        },
+        {
+            "hotelName": "Taj Mahal",
+            "image": "https://media.istockphoto.com/id/472899538/photo/downtown-cleveland-hotel-entrance-and-waiting-taxi-cab.jpg?s=612x612&w=0&k=20&c=rz-WSe_6gKfkID6EL9yxCdN_UIMkXUBsr67884j-X9o=",
+            "roomImges": [
+                "https://media.istockphoto.com/id/1298375809/photo/empty-luxury-modern-hospital-room.jpg?s=612x612&w=0&k=20&c=COJYNIiGvKfgiNITdE2IZmHo31tzUewK64jwuv8glgA=",
+                "https://media.istockphoto.com/id/1266155634/photo/luxurious-and-elegant-bedroom-interiors.jpg?s=612x612&w=0&k=20&c=5O3Lz-WyJv7GYh09rvf66nif1dUsibl01wrt9KrZaSs="
+            ],
+            "address": "Gwalior",
+            "rooms": 4,
+            "price": "₹ 33000 per night",
+            "availability": 29,
+            "rating": 4
+        },
+        {
+            "image": "https://media.istockphoto.com/id/1165384568/photo/europe-modern-complex-of-residential-buildings.jpg?s=612x612&w=0&k=20&c=iW4NBiMPKEuvaA7h8wIsPHikhS64eR-5EVPfjQ9GPOA=",
+            "hotelName": "Mumtaj Mahal",
+            "roomImges": [
+                "https://media.istockphoto.com/id/1050564510/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=ZYEso7dgPl889aYddhY2Fj3GOyuwqliHkbbT8pjl_iM=",
+                "https://media.istockphoto.com/id/1082349950/video/modern-hotel-bedroom-interior.jpg?s=640x640&k=20&c=9CBaBpckC1nmNujA4c4OmhoY_oOpMQWkREjBCwz4I5Y="
+            ],
+            "address": "Delhi",
+            "rooms": 4,
+            "price": "₹ 25000 per night",
+            "availability": 2,
+            "rating": 5
+        },
+        {
+            "image": "https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc=",
+            "hotelName": "Five Star",
+            "roomImges": [
+                "https://media.istockphoto.com/id/1293415546/photo/3d-rendering-luxury-bedroom-suite-in-resort-high-rise-hotel-with-twin-bed.jpg?s=612x612&w=0&k=20&c=3U5IwFoQUYaQo2OJJtPmSucH_-XnsKYVAPVcbieYsFg=",
+                "https://media.istockphoto.com/id/843823656/photo/hotel-room.jpg?s=612x612&w=0&k=20&c=8-ZNA52e5GlPuuQPXqZRgsTO9WRZwZgFtDotyC6CGHY="
+            ],
+            "address": "Banglore",
+            "rooms": 4,
+            "price": "₹ 50000 per night",
+            "availability": 9,
+            "rating": 4
+        },
+        {
+            "image": "https://media.istockphoto.com/id/514102692/photo/udaipur-city-palace-in-rajasthan-state-of-india.jpg?s=612x612&w=0&k=20&c=bYRDPOuf6nFgghl6VAnCn__22SFyu_atC_fiSCzVNtY=",
+            "hotelName": "Taj Hotel",
+            "roomImges": [
+                "https://media.istockphoto.com/id/1332099020/photo/modern-living-room-interior-with-smart-tv-sofa-floor-lamp-and-potted-plant.jpg?s=612x612&w=0&k=20&c=j0lRO-TkQOAkXte-HBT6mnb3WfN6E2AA_Ma7e8k0dmU=",
+                "https://media.istockphoto.com/id/1066999762/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=kh1SoNvZYDdAFOadeKxPVssVKVzbMTIuOHQu-RBDoX0="
+            ],
+            "address": "Jaypur",
+            "rooms": 4,
+            "price": "₹ 35000 per night",
+            "availability": 19,
+            "rating": 3.5
+        },
+        {
+            "image": "https://media.istockphoto.com/id/488120139/photo/modern-real-estate.jpg?s=612x612&w=0&k=20&c=88jk1VLSoYboMmLUx173sHs_XrZ9pH21as8lC7WINQs=",
+            "hotelName": "Queen's Hotel",
+            "roomImges": [
+                "https://media.istockphoto.com/id/1334117334/photo/digital-render-of-large-hotel-suite-bedroom.jpg?s=612x612&w=0&k=20&c=kzkNh4AGdRiLnbsJLHDczl1OROhXvhQD3f4N3j6Ptsw=",
+                "https://media.istockphoto.com/id/834429352/photo/bedroom-with-vintage-blue-armchair.jpg?s=612x612&w=0&k=20&c=eidH0_o8xLZ5UsnqFT7jE3ibPlJrzjZ_PE3ExJkRuPQ="
+            ],
+            "address": "Indore",
+            "rooms": 4,
+            "price": "₹ 45000 per night",
+            "availability": 5,
+            "rating": 4.5
+        },
+        {
+            "image": "https://media.istockphoto.com/id/1223072133/photo/cityscape-of-a-residential-area-with-modern-apartment-buildings-new-green-urban-landscape-in.jpg?s=612x612&w=0&k=20&c=4Rt3ckwGExlXMJwD7lMMxNEm0CVowexNUp1u08nHVa8=",
+            "hotelName": " Bindaas Hotel",
+            "roomImges": [
+                "https://media.istockphoto.com/id/1141951033/photo/luxury-bedroom-interior.jpg?s=612x612&w=0&k=20&c=As_kym3CEkAVqB9NZHoXiEciWPMo1SRUO0YXLSTTiME=",
+                "https://media.istockphoto.com/id/1388948755/video/wind-moving-curtains-on-the-open-balcony-window-in-the-modern-empty-hotel-room.jpg?s=640x640&k=20&c=ncqUnTqtjKPZt3H2g2UPv4BZAgPuOm4waDCtFh1O2yc="
+            ],
+            "address": "Noida",
+            "rooms": 4,
+            "price": "₹ 30000 per night",
+            "availability": 18,
+            "rating": 4.5
+        },
+        {
+            "image": "https://media.istockphoto.com/id/104731717/photo/luxury-resort.jpg?s=612x612&w=0&k=20&c=cODMSPbYyrn1FHake1xYz9M8r15iOfGz9Aosy9Db7mI=",
+            "hotelName": "Unique hotel",
+            "roomImges": [
+                "https: //media.istockphoto.com/id/1141951033/photo/luxury-bedroom-interior.jpg?s=612x612&w=0&k=20&c=As_kym3CEkAVqB9NZHoXiEciWPMo1SRUO0YXLSTTiME=",
+                "https://media.istockphoto.com/id/1300388503/photo/3d-render-of-luxury-hotel-suite-room-bedroom.jpg?s=612x612&w=0&k=20&c=UTer8WTg2hXKYphgIo1s2vrEj4INQ-w_FpVmXosU6Kw="
+            ],
+            "address": "Goa",
+            "rooms": 4,
+            "price": "₹ 30000 per night",
+            "availability": 25,
+            "rating": 5
+        },
+        {
+            "image": "https://media.istockphoto.com/id/1157525825/photo/modern-apartment-buildings.jpg?s=612x612&w=0&k=20&c=3FYeLpBDu-8599WTxWZDyPgxPrfLiEJ-AMZlA3xTx6s=",
+            "hotelName": " Yadav hotel",
+            "roomImges": [
+                "https://media.istockphoto.com/id/583698440/photo/classic-bedroom.jpg?s=612x612&w=0&k=20&c=rccB7Vdc1d3nOqEVQ89mJ6cRSS_wgGLBJDl409M9fFA=",
+                "https://media.istockphoto.com/id/155151400/photo/luxury-living-room-in-paris.jpg?s=612x612&w=0&k=20&c=hQhlzaAB1Ge1DHB2IyRsyOoF-AIPmrteteGB3cuX15U="
+            ],
+            "address": "Raipur",
+            "rooms": 4,
+            "price": "₹ 50000 per night",
+            "availability": 30,
+            "rating": 3
+        },
+        {
+            "image": "https://media.istockphoto.com/id/1248298343/photo/3d-rendering-of-a-luxury-restaurant-interior-at-night.jpg?s=612x612&w=0&k=20&c=HATLl-O0gMhEEFP5gOA48YrCiFAw5J4gMD69I7WIhlg=",
+            "hotelName": "Overoy hotel",
+            "roomImges": [
+                "https://media.istockphoto.com/id/1312943476/photo/luxurious-and-elegant-bedroom-interiors.jpg?s=612x612&w=0&k=20&c=4B4pnXd2WytUU4zMI3vMpjUPNOMl6lhBn7Jue8oq6S8=",
+                "https://media.istockphoto.com/id/185086520/photo/luxury-hotel-room.jpg?s=612x612&w=0&k=20&c=aky5Tl_ShRmxJ1FMuuaVh8FvisggxyFiqdW4o7o8sPc="
+            ],
+            "address": "Lucknow",
+            "rooms": 4,
+            "price": "₹ 20000 per night",
+            "availability": 20,
+            "rating": 2
+        }
+    ]
+}
