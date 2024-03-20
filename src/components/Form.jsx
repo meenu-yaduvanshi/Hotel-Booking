@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import Calender from './Calender';
+// import Calender from './Calender';
 import Button from '@mui/material/Button';
 import '../App.css';
 import { useState } from "react";
@@ -20,7 +20,9 @@ const Form = () => {
         phoneNumber: '',
         email: '',
         place: '',
-        room: ''
+        room: '',
+        checkin: '',
+        checkout:''
     });
     // console.log(formData);
     const handleChange = (event) => {
@@ -72,7 +74,9 @@ const Form = () => {
                     <TextField label="Phone Number" id="phoneNumber" type="number" onChange={handleChange} required />
                     <TextField label="Place" id="place" onChange={handleChange} required />
                     <TextField label="Room" id="room" type="number" onChange={handleChange} required />
-                    <Calender required />
+                    <TextField lable="Check-in" type='date' id="checkin" onChange={handleChange} required />
+                    <TextField lable="Check-out" type='date' id="checkout" onChange={handleChange} required s/>
+                    {/* <Calender required /> */}
                     <Button variant="contained" type='submit'>Submit</Button >
                 </div>
             </Box>

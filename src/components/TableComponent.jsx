@@ -22,6 +22,7 @@ function TableComponent() {
         createData('Email', location.state.email),
         createData('Place', location.state.place),
         createData('Rooms', location.state.room),
+        createData('Date', location.state.checkin + " To " + location.state.checkout)
     ];
 
     return (
