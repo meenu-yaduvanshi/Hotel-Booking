@@ -1,17 +1,22 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css';
-import data from './data.json'
 import HotelCard from './components/HotelCard'
+import * as React from 'react';
 
 function App() {
 
-  fetch('http://localhost:3001/hotelDetails')
-    .then((response) => {
-      return response.json()
-    })
-    .then((data) => {
-      console.log(data)
-    })
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3001/hotelDetails')
+      .then((response) => {
+        return response.json()
+      })
+      .then((data) => {
+        console.log(data)
+        return setData(data)
+      })
+  }, [])
 
   return (
     <>
@@ -19,13 +24,12 @@ function App() {
         <h1>Booking.com</h1>
       </nav>
       {
-        data.hotelDetails.map((item, index) => (
-          <HotelCard items={item} key={index} />
-        ))      
+        data.map((item, index) => (
+          <HotelCard item={item} hotelList={data} hotelId={item.id} key={index} />
+        ))
       }
     </>
   )
 }
-
 
 export default App

@@ -7,8 +7,18 @@ import Button from '@mui/material/Button';
 import Rating, { ratingClasses } from '@mui/material/Rating';
 import '../App.css';
 import { Link } from "react-router-dom";
+import Alert from '@mui/material/Alert';
+import Stack from '@mui/material/Alert';
 
-const HotelCard = ({ items }) => {
+const HotelCard = ({ item, hotelList, hotelId }) => {
+    const newObj = {
+        hotelId: hotelId,
+        hotelList: hotelList
+    }
+    // const handleClick = () => {
+    //     console.log(item.id)
+    // }
+
     return (
         <div>
             <Card
@@ -22,7 +32,7 @@ const HotelCard = ({ items }) => {
                     component="img"
                     width="100"
                     height="180"
-                    src={items.image}
+                    src={item.image}
                     sx={{
                         borderRadius: '6px',
                         width: { xs: '100%', sm: 350 },
@@ -30,24 +40,37 @@ const HotelCard = ({ items }) => {
                 />
                 <Box sx={{ alignSelf: 'center', ml: 4 }}>
                     <Typography variant="h4" component="h2">
-                        {items.hotelName}
+                        {item.hotelName}
                     </Typography>
-                    <Rating name="half-rating" defaultValue={items.rating} />
+                    <Rating name="half-rating" defaultValue={item.rating} />
+
                     <Typography variant="h5" color="text.secondary" fontWeight="regular">
-                        {items.address}
+                        {item.address}
                     </Typography>
                     <Typography variant="body2" color="text.secondary" fontWeight="regular">
-                        {items.price}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary" fontWeight="regular">
-                        availability:- {items.availability}
+                        {item.price}
                     </Typography>
                     <div className='button'>
-                        <Link to={`/form`}> <Button variant="contained">Booking</Button></Link>
+                        {item.availability !== 0 ? (
+                            <>
+                                <Typography variant="body2" color="text.secondary" fontWeight="regular">
+                                    availability {item.availability}
+                                </Typography>
+                                <Link to={"/form"} state={newObj}>
+                                    <Button variant="contained">Book</Button>
+                                </Link></>) : (<>
+                                    <Stack sx={{ width: '100%' }} spacing={2}>
+                                        <Alert severity="error">Not Availability The room  </Alert>
+                                    </Stack>
+                                    <Button variant="contained" disabled>
+                                        Disabled
+                                    </Button>
+                            </>
+                        )}
                     </div>
                 </Box>
             </Card>
-        </div>
+        </div >
     )
 }
 
