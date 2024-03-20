@@ -3,52 +3,52 @@
     {
       "id": "1",
       "image": "https://media.istockphoto.com/id/1331465591/photo/3d-render-of-a-luxury-hotel-swimming-pool.jpg?s=612x612&w=0&k=20&c=oK3vEzPg3mZrCXgairNgU5qM-vf0jMab9N7udzzVDk0=",
-      "hotelName": "Meenu's Hotel",
+      "hotelName": "Hotel Auris",
       "roomImges": [
         "https://media.istockphoto.com/id/1300757575/photo/side-view-of-hotel-amenities-on-the-bed.jpg?s=612x612&w=0&k=20&c=NQK76wtCnGhNcvveUfs8FE4JGl9-A1zuqCsSS8vUmgI=",
         "https://media.istockphoto.com/id/627892060/photo/hotel-room-suite-with-view.jpg?s=612x612&w=0&k=20&c=YBwxnGH3MkOLLpBKCvWAD8F__T-ypznRUJ_N13Zb1cU="
       ],
       "address": "Mumbai",
-      "price": "₹ 25000 per night",
-      "availability": 0,
+      "price": "₹ 15000 per night",
+      "availability": 13,
       "rating": 5
     },
     {
       "id": "2",
-      "hotelName": "Taj Mahal",
+      "hotelName": "Taj Mahal Hotel",
       "image": "https://media.istockphoto.com/id/472899538/photo/downtown-cleveland-hotel-entrance-and-waiting-taxi-cab.jpg?s=612x612&w=0&k=20&c=rz-WSe_6gKfkID6EL9yxCdN_UIMkXUBsr67884j-X9o=",
       "roomImges": [
         "https://media.istockphoto.com/id/1298375809/photo/empty-luxury-modern-hospital-room.jpg?s=612x612&w=0&k=20&c=COJYNIiGvKfgiNITdE2IZmHo31tzUewK64jwuv8glgA=",
         "https://media.istockphoto.com/id/1266155634/photo/luxurious-and-elegant-bedroom-interiors.jpg?s=612x612&w=0&k=20&c=5O3Lz-WyJv7GYh09rvf66nif1dUsibl01wrt9KrZaSs="
       ],
       "address": "Gwalior",
-      "price": "₹ 33000 per night",
-      "availability": 29,
+      "price": "₹ 13000 per night",
+      "availability": 28,
       "rating": 4
     },
     {
       "id": "3",
       "image": "https://media.istockphoto.com/id/1165384568/photo/europe-modern-complex-of-residential-buildings.jpg?s=612x612&w=0&k=20&c=iW4NBiMPKEuvaA7h8wIsPHikhS64eR-5EVPfjQ9GPOA=",
-      "hotelName": "Mumtaj Mahal",
+      "hotelName": "Golden Hotel",
       "roomImges": [
         "https://media.istockphoto.com/id/1050564510/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=ZYEso7dgPl889aYddhY2Fj3GOyuwqliHkbbT8pjl_iM=",
         "https://media.istockphoto.com/id/1082349950/video/modern-hotel-bedroom-interior.jpg?s=640x640&k=20&c=9CBaBpckC1nmNujA4c4OmhoY_oOpMQWkREjBCwz4I5Y="
       ],
       "address": "Delhi",
-      "price": "₹ 25000 per night",
-      "availability": 2,
+      "price": "₹ 9000 per night",
+      "availability": 0,
       "rating": 5
     },
     {
       "id": "4",
       "image": "https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc=",
-      "hotelName": "Five Star",
+      "hotelName": "Clirk inn suit",
       "roomImges": [
         "https://media.istockphoto.com/id/1293415546/photo/3d-rendering-luxury-bedroom-suite-in-resort-high-rise-hotel-with-twin-bed.jpg?s=612x612&w=0&k=20&c=3U5IwFoQUYaQo2OJJtPmSucH_-XnsKYVAPVcbieYsFg=",
         "https://media.istockphoto.com/id/843823656/photo/hotel-room.jpg?s=612x612&w=0&k=20&c=8-ZNA52e5GlPuuQPXqZRgsTO9WRZwZgFtDotyC6CGHY="
       ],
       "address": "Banglore",
-      "price": "₹ 50000 per night",
+      "price": "₹ 15000 per night",
       "availability": 5,
       "rating": 4
     },
@@ -61,20 +61,20 @@
         "https://media.istockphoto.com/id/1066999762/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=kh1SoNvZYDdAFOadeKxPVssVKVzbMTIuOHQu-RBDoX0="
       ],
       "address": "Jaypur",
-      "price": "₹ 35000 per night",
+      "price": "₹ 5000 per night",
       "availability": 19,
       "rating": 3.5
     },
     {
       "id": "6",
       "image": "https://media.istockphoto.com/id/488120139/photo/modern-real-estate.jpg?s=612x612&w=0&k=20&c=88jk1VLSoYboMmLUx173sHs_XrZ9pH21as8lC7WINQs=",
-      "hotelName": "Queen's Hotel",
+      "hotelName": "Relax Hotel",
       "roomImges": [
         "https://media.istockphoto.com/id/1334117334/photo/digital-render-of-large-hotel-suite-bedroom.jpg?s=612x612&w=0&k=20&c=kzkNh4AGdRiLnbsJLHDczl1OROhXvhQD3f4N3j6Ptsw=",
         "https://media.istockphoto.com/id/834429352/photo/bedroom-with-vintage-blue-armchair.jpg?s=612x612&w=0&k=20&c=eidH0_o8xLZ5UsnqFT7jE3ibPlJrzjZ_PE3ExJkRuPQ="
       ],
       "address": "Indore",
-      "price": "₹ 45000 per night",
+      "price": "₹ 9000 per night",
       "availability": 5,
       "rating": 4.5
     },
@@ -87,7 +87,7 @@
         "https://media.istockphoto.com/id/1388948755/video/wind-moving-curtains-on-the-open-balcony-window-in-the-modern-empty-hotel-room.jpg?s=640x640&k=20&c=ncqUnTqtjKPZt3H2g2UPv4BZAgPuOm4waDCtFh1O2yc="
       ],
       "address": "Noida",
-      "price": "₹ 30000 per night",
+      "price": "₹ 12000 per night",
       "availability": 18,
       "rating": 4.5
     },
@@ -101,20 +101,20 @@
       ],
       "address": "Goa",
       "price": "₹ 30000 per night",
-      "availability": 25,
+      "availability": 24,
       "rating": 5
     },
     {
       "id": "9",
       "image": "https://media.istockphoto.com/id/1157525825/photo/modern-apartment-buildings.jpg?s=612x612&w=0&k=20&c=3FYeLpBDu-8599WTxWZDyPgxPrfLiEJ-AMZlA3xTx6s=",
-      "hotelName": " Yadav hotel",
+      "hotelName": " Birla hotel",
       "roomImges": [
         "https://media.istockphoto.com/id/583698440/photo/classic-bedroom.jpg?s=612x612&w=0&k=20&c=rccB7Vdc1d3nOqEVQ89mJ6cRSS_wgGLBJDl409M9fFA=",
         "https://media.istockphoto.com/id/155151400/photo/luxury-living-room-in-paris.jpg?s=612x612&w=0&k=20&c=hQhlzaAB1Ge1DHB2IyRsyOoF-AIPmrteteGB3cuX15U="
       ],
       "address": "Raipur",
-      "price": "₹ 50000 per night",
-      "availability": 30,
+      "price": "₹ 18000 per night",
+      "availability": 26,
       "rating": 3
     },
     {

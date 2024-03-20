@@ -7,8 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { useLocation } from 'react-router-dom';
-import { Link} from "react-router-dom";
-
+import { Link } from "react-router-dom";
 import '../App.css'
 function createData(name, details) {
     return { name, details };
@@ -27,12 +26,11 @@ function TableComponent() {
 
     return (
         <div>
-            <nav className='nav-bar'>   
+            <nav className='nav-bar'>
                 <h1>Booking.com</h1>
-            <Link to={'/'}> <button className='home-btn'>Home</button ></Link>
             </nav>
             <TableContainer component={Paper}>
-                <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                <Table sx={{ minWidth: 350 }} aria-label="simple table">
                     <TableHead>
                         <TableRow>
                             <TableCell>Name</TableCell>
@@ -54,7 +52,8 @@ function TableComponent() {
                     </TableBody>
                 </Table>
             </TableContainer>
-
+            <div className='thankYou'><h1>Thank you for submition !!</h1></div>
+            <Link to={'/'}> <div className='returnHome-div'><button>Return Home</button ></div></Link>
         </div>
     );
 }

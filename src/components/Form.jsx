@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-// import Calender from './Calender';
 import Button from '@mui/material/Button';
 import '../App.css';
 import { useState } from "react";
@@ -11,9 +10,10 @@ import { useLocation, useNavigate } from 'react-router-dom';
 const Form = () => {
     const location = useLocation();
     const navigate = useNavigate();
-    const hotelList = location.state.hotelList
+    const hotelList = location.state.hotelList;
     const hotelId = location.state.hotelId;
-    console.log(hotelList);
+    const hotelName = location.state.hotelName;
+    console.log(hotelName);
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -22,7 +22,7 @@ const Form = () => {
         place: '',
         room: '',
         checkin: '',
-        checkout:''
+        checkout: ''
     });
     // console.log(formData);
     const handleChange = (event) => {
@@ -58,8 +58,9 @@ const Form = () => {
             <nav className='nav-bar'>
                 <h1>Booking.com</h1>
             </nav>
-            <h4>Hotel Id: {location.state.hotelId}</h4>
-            {/* <h4>Hotel Name: {location.state.hotelName}</h4> */}
+            <div className='hotelName-div'>
+                <h1>{location.state.hotelName}</h1>
+            </div>
             <Box
                 component="form"
                 sx={{
@@ -75,9 +76,8 @@ const Form = () => {
                     <TextField label="Place" id="place" onChange={handleChange} required />
                     <TextField label="Room" id="room" type="number" onChange={handleChange} required />
                     <TextField lable="Check-in" type='date' id="checkin" onChange={handleChange} required />
-                    <TextField lable="Check-out" type='date' id="checkout" onChange={handleChange} required s/>
-                    {/* <Calender required /> */}
-                    <Button variant="contained" type='submit'>Submit</Button >
+                    <TextField lable="Check-out" type='date' id="checkout" onChange={handleChange} required />
+                    <div className="submitBtn-div"><Button variant="contained" type='submit'>Submit</Button></div>
                 </div>
             </Box>
         </>

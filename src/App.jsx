@@ -25,7 +25,7 @@ function App() {
       </nav>
       {
         data.map((item, index) => (
-          <HotelCard item={item} hotelList={data} hotelId={item.id} key={index} />
+          <HotelCard item={item} hotelList={data} hotelId={item.id} key={index} hotelName={item.hotelName} />
         ))
       }
     </>

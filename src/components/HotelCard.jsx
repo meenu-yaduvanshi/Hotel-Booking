@@ -10,14 +10,12 @@ import { Link } from "react-router-dom";
 import Alert from '@mui/material/Alert';
 import Stack from '@mui/material/Alert';
 
-const HotelCard = ({ item, hotelList, hotelId }) => {
+const HotelCard = ({ item, hotelList, hotelId, hotelName }) => {
     const newObj = {
         hotelId: hotelId,
-        hotelList: hotelList
+        hotelList: hotelList,
+        hotelName: hotelName
     }
-    // const handleClick = () => {
-    //     console.log(item.id)
-    // }
 
     return (
         <div>
@@ -54,18 +52,18 @@ const HotelCard = ({ item, hotelList, hotelId }) => {
                         {item.availability !== 0 ? (
                             <>
                                 <Typography variant="body2" color="text.secondary" fontWeight="regular">
-                                    availability {item.availability}
+                                    availability :- {item.availability}
                                 </Typography>
                                 <Link to={"/form"} state={newObj}>
                                     <Button variant="contained">Book</Button>
                                 </Link></>) : (<>
                                     <Stack sx={{ width: '100%' }} spacing={2}>
-                                        <Alert severity="error">Not Availability The room  </Alert>
+                                        <Alert severity="error">Room not avaible </Alert>
                                     </Stack>
                                     <Button variant="contained" disabled>
                                         Disabled
                                     </Button>
-                            </>
+                                </>
                         )}
                     </div>
                 </Box>
