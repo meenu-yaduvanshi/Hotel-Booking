@@ -9,9 +9,29 @@
   border-radius: 4px;
 }
 
-
 .button {
   margin-bottom: 25px;
+}
+
+/* Hotel catd */
+.hotelCard-container {
+  margin: 20px;
+}
+
+#centerContainer {
+  width: 55%;
+}
+
+.mainContainer {
+  display: block;
+  margin: 20px;
+}
+@media only screen and (min-width:760px) {
+  .mainContainer {
+    display: flex;
+    gap: 20px;
+
+  }
 }
 
 /* Form component */
@@ -37,6 +57,7 @@
   margin: 3%;
 }
 
+/* Tabel component */
 .join {
   display: flex;
   justify-content: end;

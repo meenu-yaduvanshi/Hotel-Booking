@@ -18,25 +18,23 @@ const HotelCard = ({ item, hotelList, hotelId, hotelName }) => {
     }
 
     return (
-        <div>
-            <Card
+        <div className='hotelCard-container'>
+            <Card className='mainContainer'
                 variant="outlined"
-                sx={{
-                    display: 'flex',
-                    flexWrap: 'wrap',
-                }}
             >
-                <CardMedia
-                    component="img"
-                    width="100"
-                    height="180"
-                    src={item.image}
-                    sx={{
-                        borderRadius: '6px',
-                        width: { xs: '100%', sm: 350 },
-                    }}
-                />
-                <Box sx={{ alignSelf: 'center', ml: 4 }}>
+                <div>
+                    <CardMedia
+                        component="img"
+                        width="100"
+                        height="180"
+                        src={item.image}
+                        sx={{
+                            borderRadius: '6px',
+                            width: { xs: '150%', sm: 350 },
+                        }}
+                    />
+                </div>
+                <div id='centerContainer'>
                     <Typography variant="h4" component="h2">
                         {item.hotelName}
                     </Typography>
@@ -45,6 +43,8 @@ const HotelCard = ({ item, hotelList, hotelId, hotelName }) => {
                     <Typography variant="h5" color="text.secondary" fontWeight="regular">
                         {item.address}
                     </Typography>
+                </div>
+                <div className='endContainer'>
                     <Typography variant="body2" color="text.secondary" fontWeight="regular">
                         {item.price}
                     </Typography>
@@ -66,7 +66,8 @@ const HotelCard = ({ item, hotelList, hotelId, hotelName }) => {
                                 </>
                         )}
                     </div>
-                </Box>
+                </div>
+
             </Card>
         </div >
     )
